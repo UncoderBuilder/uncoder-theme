@@ -1,6 +1,6 @@
 /*
 Theme Name: Uncoder
-Theme URI: https://builder.uncoder.co/
+Theme URI: https://uncoderbuilder.com/
 Author: Uncoder
 Author URI: https://uncoder.co/
 Description: The free companion theme for the Uncoder visual website builder. A clean, fast canvas that gets out of the way: pages built with Uncoder get the full width, Theme Builder headers, footers and layouts replace the theme's own, and posts and pages written in the block editor get readable typography that follows your Uncoder Design System colors and fonts. It also works without the plugin.
@@ -10,6 +10,7 @@ Tested up to: 7.1
 Requires PHP: 8.0
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Update URI: https://github.com/UncoderBuilder/uncoder-theme
 Text Domain: uncoder-theme
 Domain Path: /languages
 Tags: one-column, custom-logo, custom-menu, editor-style, featured-images, threaded-comments, translation-ready, wide-blocks, block-styles, blog
@@ -75,6 +76,13 @@ html { -webkit-text-size-adjust: 100%; }
 }
 :where(input, textarea, select):focus-visible { outline: 2px solid var(--ut-primary); outline-offset: 1px; }
 :where(figcaption), .wp-caption-text, .gallery-caption { color: var(--ut-muted); font-size: .875rem; }
+/* Classic [gallery] shortcode: a grid of N columns (gallery-columns-N), two on phones. */
+.gallery { display: grid; grid-template-columns: repeat(var(--ut-gallery-cols, 3), minmax(0, 1fr)); gap: 1rem; margin-block: 1.5em; }
+.gallery-columns-1 { --ut-gallery-cols: 1; } .gallery-columns-2 { --ut-gallery-cols: 2; } .gallery-columns-4 { --ut-gallery-cols: 4; } .gallery-columns-5 { --ut-gallery-cols: 5; }
+.gallery-columns-6 { --ut-gallery-cols: 6; } .gallery-columns-7 { --ut-gallery-cols: 7; } .gallery-columns-8 { --ut-gallery-cols: 8; } .gallery-columns-9 { --ut-gallery-cols: 9; }
+.gallery-item { margin: 0; }
+.gallery-item img { display: block; width: 100%; height: auto; border-radius: 8px; }
+@media (max-width: 600px) { .gallery:not(.gallery-columns-1) { --ut-gallery-cols: 2; } }
 
 /* Buttons. With Uncoder active, .uncoder-btn takes the Design System button style instead. */
 :where(.ut-btn, .post-password-form [type=submit]) {

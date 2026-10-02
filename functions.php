@@ -11,6 +11,7 @@ define( 'UNCODER_THEME_VERSION', '1.0.0' );
 
 require get_template_directory() . '/inc/uncoder.php';
 require get_template_directory() . '/inc/template-tags.php';
+require get_template_directory() . '/inc/updater.php';
 
 if ( is_admin() ) {
 	require get_template_directory() . '/inc/admin-notice.php';

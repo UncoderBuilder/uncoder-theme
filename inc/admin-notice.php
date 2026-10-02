@@ -42,7 +42,7 @@ function uncoder_theme_plugin_notice(): void {
 		$url  = wp_nonce_url( self_admin_url( 'plugins.php?action=activate&plugin=' . rawurlencode( $plugin ) ), 'activate-plugin_' . $plugin );
 		$link = __( 'Activate Uncoder', 'uncoder-theme' );
 	} elseif ( '' === $plugin && current_user_can( 'install_plugins' ) ) {
-		$url  = 'https://builder.uncoder.co/download/';
+		$url  = 'https://uncoderbuilder.com/download/';
 		$link = __( 'Get Uncoder', 'uncoder-theme' );
 	} else {
 		return;

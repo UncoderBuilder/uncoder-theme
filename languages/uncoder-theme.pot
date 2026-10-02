@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Uncoder 1.0.0\n"
-"Report-Msgid-Bugs-To: https://builder.uncoder.co/\n"
+"Report-Msgid-Bugs-To: https://uncoderbuilder.com/\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #. Theme URI of the theme
 #: style.css
-msgid "https://builder.uncoder.co/"
+msgid "https://uncoderbuilder.com/"
 msgstr ""
 
 #. Description of the theme

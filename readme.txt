@@ -11,7 +11,7 @@ The free companion theme for the Uncoder visual website builder: a clean, fast c
 
 == Description ==
 
-Uncoder is a lightweight classic theme made for the Uncoder website builder (https://builder.uncoder.co/). It does as little as possible, so that what you build with Uncoder looks exactly as designed:
+Uncoder is a lightweight classic theme made for the Uncoder website builder (https://uncoderbuilder.com/). It does as little as possible, so that what you build with Uncoder looks exactly as designed:
 
 * Pages and posts built with Uncoder get the full width of the window, without theme padding or a content column, also with the default page template.
 * Headers, footers and page layouts from the Uncoder Theme Builder replace the theme's own, with no duplicate header or footer.
@@ -24,7 +24,7 @@ The theme also works on its own, without the plugin.
 
 == Installation ==
 
-1. Download uncoder-theme-1.0.0.zip from https://builder.uncoder.co/download/.
+1. Download uncoder-theme.zip from https://github.com/UncoderBuilder/uncoder-theme/releases/latest (later versions arrive as normal theme updates while the theme is active).
 2. In WordPress, go to Appearance > Themes > Add New Theme > Upload Theme, choose the zip file and click Install Now.
 3. Click Activate.
 4. Optional: add your logo in Appearance > Customize > Site Identity, and assign menus to the Primary menu and Footer menu locations in Appearance > Menus.
