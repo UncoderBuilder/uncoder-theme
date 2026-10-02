@@ -21,6 +21,7 @@ msgid "Uncoder"
 msgstr ""
 
 #. Theme URI of the theme
+#. Author URI of the theme
 #: style.css
 msgid "https://uncoderbuilder.com/"
 msgstr ""
@@ -28,11 +29,6 @@ msgstr ""
 #. Description of the theme
 #: style.css
 msgid "The free companion theme for the Uncoder visual website builder. A clean, fast canvas that gets out of the way: pages built with Uncoder get the full width, Theme Builder headers, footers and layouts replace the theme's own, and posts and pages written in the block editor get readable typography that follows your Uncoder Design System colors and fonts. It also works without the plugin."
-msgstr ""
-
-#. Author URI of the theme
-#: style.css
-msgid "https://uncoder.co/"
 msgstr ""
 
 #: 404.php:15
