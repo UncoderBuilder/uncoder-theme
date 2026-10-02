@@ -1,0 +1,18 @@
+/*
+ * Block editor styles: the same typography as the front end (Uncoder Design System variables when present).
+ * WordPress scopes these rules to the editor canvas.
+ */
+body {
+	color: var(--uncoder-c-text, #374151);
+	font: 1.0625rem/1.65 var(--uncoder-f-body, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif);
+}
+:where(h1, h2, h3, h4, h5, h6) { color: var(--uncoder-c-heading, #0f172a); font-family: var(--uncoder-f-heading, var(--uncoder-f-body, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif)); font-weight: 700; line-height: 1.2; }
+:where(h1) { font-size: clamp(2rem, 1.5rem + 2vw, 2.75rem); }
+:where(h2) { font-size: clamp(1.6rem, 1.35rem + 1vw, 2rem); }
+:where(h3) { font-size: 1.4rem; }
+:where(h4) { font-size: 1.2rem; }
+:where(h5, h6) { font-size: 1rem; }
+:where(a) { color: var(--uncoder-c-primary, #2b59ff); text-underline-offset: .15em; }
+:where(code, kbd, pre, samp) { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: .9em; }
+:where(blockquote) { padding-inline-start: 1.25em; border-inline-start: 3px solid var(--uncoder-c-primary, #2b59ff); }
+:where(figcaption) { color: var(--uncoder-c-muted, #6b7280); font-size: .875rem; }

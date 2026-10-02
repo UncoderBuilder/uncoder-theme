@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"useRootPaddingAwareAlignments": false,
+		"layout": {
+			"contentSize": "720px",
+			"wideSize": "var(--uncoder-container, 1200px)"
+		},
+		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"defaultDuotone": false,
+			"palette": [
+				{ "slug": "primary", "name": "Primary", "color": "var(--uncoder-c-primary, #2b59ff)" },
+				{ "slug": "secondary", "name": "Secondary", "color": "var(--uncoder-c-secondary, #0b1b3f)" },
+				{ "slug": "accent", "name": "Accent", "color": "var(--uncoder-c-accent, #ff7a45)" },
+				{ "slug": "heading", "name": "Headings", "color": "var(--uncoder-c-heading, #0f172a)" },
+				{ "slug": "text", "name": "Text", "color": "var(--uncoder-c-text, #374151)" },
+				{ "slug": "muted", "name": "Muted text", "color": "var(--uncoder-c-muted, #6b7280)" },
+				{ "slug": "surface", "name": "Surface", "color": "var(--uncoder-c-surface, #f5f7fb)" },
+				{ "slug": "border", "name": "Border", "color": "var(--uncoder-c-border, #e5e7eb)" },
+				{ "slug": "white", "name": "White", "color": "var(--uncoder-c-white, #ffffff)" },
+				{ "slug": "black", "name": "Black", "color": "var(--uncoder-c-black, #0b0b0f)" }
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--primary)",
+					"text": "#ffffff"
+				},
+				"border": {
+					"radius": "8px"
+				},
+				"typography": {
+					"fontWeight": "600"
+				}
+			}
+		}
+	}
+}
